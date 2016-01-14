@@ -3,7 +3,9 @@ EventScripts to automatically add keys to SSH Agent from your Yubikey.
 
 ## Requirements
 [EventScripts](http://www.mousedown.net/mouseware/index.html)
+
 [OpenSC](https://github.com/OpenSC/OpenSC)
+
 [Yubikey](https://www.yubico.com/products/yubikey-hardware/yubikey4/) or other PKCS11 compatible token
 
 ## Installation
