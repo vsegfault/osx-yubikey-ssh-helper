@@ -14,8 +14,8 @@ EventScripts to automatically add keys to SSH Agent from your Yubikey.
 4. In Keychain yb create new item "application password" with name yb. Password is your password for Yubikey.
 5. Compile scripts 
 ```bash
-osacompile -o insert-yubikey.scpt insert-yubikey.source
-osacompile -o remove-yubikey.scpt remove-yubikey.source
+osacompile -o insert-yubikey.scpt insert-yubikey.applescript
+osacompile -o remove-yubikey.scpt remove-yubikey.applescript
 ```
 6. Copy insert-yubikey.scpt and remove-yubikey.scpt in to EventScripts script folder.
 7. Add two events:
